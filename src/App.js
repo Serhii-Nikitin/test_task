@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './App.scss';
+import goodsFromServer from './api/goods.json';
+import { Good } from './components/Good';
 
-function App() {
+export const App = () => {
+  const [goods, setGoods] = useState(goodsFromServer);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page-content">
+      <div className="goods-list">
+        {goods.map(good => (
+          <Good
+            key={good.id}
+            setGoods={setGoods}
+            good={good}
+          />
+        ))}
+      </div>
     </div>
   );
-}
-
-export default App;
+};
