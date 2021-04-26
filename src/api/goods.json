@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "imageUrl": "../build/images/shampoo_1.jpg",
-    "imageHoverUrl": "../build/images/shampoo_12.jpg",
+    "imageUrl": "/test_task/images/shampoo_1.jpg",
+    "imageHoverUrl": "/test_task/images/shampoo_12.jpg",
     "title": "Шампунь",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     "volumes": [{ "id": 4, "count": 100 },
@@ -11,13 +11,13 @@
     "colors": [{ "id": 13, "colorName": "Желтый" },
       { "id": 14, "colorName": "Красный" },
       { "id": 15, "colorName": "Зеленый" }],
-    "buttonUrl": "../build/images/Vector.png",
-    "buttonUrl2": "../build/images/Vector-1.png"
+    "buttonUrl": "/test_task/images/Vector.png",
+    "buttonUrl2": "/test_task/images/Vector-1.png"
   },
   {
     "id": 2,
-    "imageUrl": "../build/images/shampoo_2.jpg",
-    "imageHoverUrl": "../build/images/shampoo_22.jpg",
+    "imageUrl": "/test_task/images/shampoo_2.jpg",
+    "imageHoverUrl": "/test_task/images/shampoo_22.jpg",
     "title": "Шампунь",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     "volumes": [{ "id": 7, "count": 100 },
@@ -26,13 +26,13 @@
     "colors": [{ "id": 16, "colorName": "Желтый" },
       { "id": 17, "colorName": "Красный" },
       { "id": 18, "colorName": "Зеленый" }],
-    "buttonUrl": "../build/images/Vector.png",
-    "buttonUrl2": "../build/images/Vector-1.png"
+    "buttonUrl": "/test_task/images/Vector.png",
+    "buttonUrl2": "/test_task/images/Vector-1.png"
   },
   {
     "id": 3,
-    "imageUrl": "../build/images/shampoo_3.jpg",
-    "imageHoverUrl": "../build/images/shampoo_32.jpg",
+    "imageUrl": "/test_task/images/shampoo_3.jpg",
+    "imageHoverUrl": "/test_task/images/shampoo_32.jpg",
     "title": "Шампунь",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
     "volumes": [{ "id": 10, "count": 100 },
@@ -41,7 +41,7 @@
     "colors": [{ "id": 19, "colorName": "Желтый" },
       { "id": 20, "colorName": "Красный" },
       { "id": 21, "colorName": "Зеленый" }],
-    "buttonUrl": "../build/images/Vector.png",
-    "buttonUrl2": "../build/images/Vector-1.png"
+    "buttonUrl": "/test_task/images/Vector.png",
+    "buttonUrl2": "/test_task/images/Vector-1.png"
   }
 ]

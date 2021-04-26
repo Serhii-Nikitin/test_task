@@ -24,7 +24,7 @@ export const ColorSelect = ({
       {selectedColor || 'Цвет'}
       <div className="good__image-container">
         <img
-          src="../build/images/selected.svg"
+          src="/test_task/images/selected.svg"
           alt="select"
           className={!isColorsOpen
             ? 'good__no-selected'
